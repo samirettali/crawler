@@ -8,7 +8,7 @@ import urllib.request
 from bs4 import BeautifulSoup
 
 def main():
-  textfile = open('depth_1.txt','wt')
+  textfile = open('urls.txt','wt')
   urls = list()
   visited = list()
   urls.append(sys.argv[1])
